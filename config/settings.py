@@ -17,8 +17,7 @@ from decouple import config
 BASE_DIR = os.path.dirname(os.path.dirname(
     os.path.dirname(os.path.abspath(__file__))))
 
-SECRET_KEY = config('SECRET_KEY')
-SECRET_KEY1 = 'django-insecure-#hgue_)3)&2a626krixqz*9)x-r3d#w3@f@(%2^n(z5bj9nkz('
+SECRET_KEY = config('django-insecure-#hgue_)3)&2a626krixqz*9)x-r3d#w3@f@(%2^n(z5bj9nkz(')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
